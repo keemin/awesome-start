@@ -18,7 +18,8 @@ script:
 
 env:
   global:
-    - secure: "PBTybmRghYtrwnU3erDSMnwtAB6TtI8zRHQImEIl4c9//uTHvfe4DoJomx/t\ngmo1P6KMkGK9VcEm7Hgvf7fubKB0X7H1qt9twoGbNrofiw1KmlJqml3ffVHR\njVsbNbzWFpys0b3UDCbHreYQbr2xCjss+HoRMcqpbYVD8MRX9vQ="
+      - secure: "FXdLohMJ529IQ9quC1BIzHkbLG9KR3euX4hZhXn3r3Vi6q+V9TKrW12OeYwt\n+MvC7SDEa2zUmquhpMBfoEGsf3MveDWSTE2hXFv+RQ6QAYf8FwHq0HdcqmcI\nKJyg1q+lgPbymYl5ufk5Mv9GgVwWoWBvEuGlDTlWEcvwtIcCyjk="
+
 after_success:
 - cd ..
 - ls
